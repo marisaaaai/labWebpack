@@ -1,0 +1,54 @@
+#container {
+  width: 100%;
+  height: 100%;
+  color: black !important;
+}
+
+#card {
+  width: 250px;
+  height: auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+}
+
+#card-image {
+  width: 250px;
+  height: 150px;
+  position: relative;
+  left: 20%;
+}
+
+#card-title {
+  height: auto;
+  width: 250px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+}
+
+#card-description {
+  height: auto;
+  width: 250px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+#card-subtitle {
+  height: auto;
+  width: 250px;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #5f5858;
+}
+
+
+#card-link  {
+  height: auto;
+  display: flex;
+  width: 250px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #4331b9;
+}

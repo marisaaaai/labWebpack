@@ -24,8 +24,8 @@ function renderComponent(htmlFile) {
       const { shadowRoot, shadowDOM } = this;
       console.log('Custom component element added to page.');
       // entry parameters
-      let image = "https://concepto.de/wp-content/uploads/2015/03/biblioteca-e1550105792560.jpg";
-      let title = "Biblioteca de Marisa";
+      let image = "https://www.launch-marketing.com/wp-content/uploads/2018/07/GettyImages-1134023751.jpg";
+      let title = "Nuevos lanzamientos";
       let description = "New Description for the Image";
       let subtitle = "New Subtitle";
 

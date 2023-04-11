@@ -24,8 +24,8 @@ function renderComponent(htmlFile) {
       const { shadowRoot, shadowDOM } = this;
       console.log('Custom component element added to page.');
       // entry parameters
-      let image = "https://concepto.de/wp-content/uploads/2015/03/biblioteca-e1550105792560.jpg";
-      let title = "Biblioteca de Marisa";
+      let image = "https://images.squarespace-cdn.com/content/v1/550334cbe4b0e08b6885e88f/1436808142813-46XVMPR448DHCODJOV50/the_definition_of_a_bestseller.jpg?format=500w";
+      let title = "TOP 100 BESTSELLERS";
       let description = "New Description for the Image";
       let subtitle = "New Subtitle";
 

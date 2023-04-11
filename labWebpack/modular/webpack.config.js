@@ -4,7 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    index:'./src/index.js'
+    index:'./src/index.js',
+    nl:'./src/nl.js',
+    lp:'./src/lp.js'
   },
   module: {
     rules: [
@@ -37,6 +39,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/libros-populares.html',
       filename: 'libros-populares.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/imageCard.html',
+      filename: 'imageCard.html',
     }),
     new HtmlWebpackPlugin({
       template: './src/lp1.html',
