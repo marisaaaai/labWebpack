@@ -1,4 +1,4 @@
-import {startApp} from './app/app.js'
-import 'bootstrap/dist/css/bootstrap.css'
+import {startApp} from './app.js'
+
 import './estilos.css'
 startApp()
