@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 fetch("./imageCard.html")
   .then((stream) => stream.text())
   .then((htmlFile) => renderComponent(htmlFile));
